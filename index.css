@@ -1,0 +1,25 @@
+div{
+  width: 300px;
+  height: 400px;
+  background: rgb(184, 189, 184);
+  margin: 50px auto;
+}
+p{
+  text-align: center;
+}
+p:first-child{
+  padding-top: 100px;
+}
+button{
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+  color: #ffffff;
+  font-weight: 700;
+}
+button:nth-child(1){
+  background: red;
+}
+button:last-child{
+  background: blue;
+}
